@@ -1,3 +1,4 @@
+mod char_reader;
 mod encoded;
 mod utf8;
 

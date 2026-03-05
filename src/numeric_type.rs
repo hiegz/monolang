@@ -10,6 +10,6 @@ pub enum NumericType {
     Unsigned16,
     Unsigned32,
     Unsigned64,
-    Floating32,
-    Floating64,
+    Float32,
+    Float64,
 }

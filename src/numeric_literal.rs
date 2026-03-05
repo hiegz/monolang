@@ -1,5 +1,11 @@
+use rug::Float;
+use rug::Integer;
+
 #[derive(Debug)]
 pub enum NumericLiteral {
+    Integer(Integer),
+    Float(Float),
+
     Signed8(i8),
     Signed16(i16),
     Signed32(i32),

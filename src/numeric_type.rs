@@ -1,5 +1,7 @@
 #[derive(Debug, Clone)]
 pub enum NumericType {
+    Integer,
+    Float,
     Signed8,
     Signed16,
     Signed32,

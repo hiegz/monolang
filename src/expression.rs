@@ -1,4 +1,4 @@
-pub enum Expr {
+pub enum Expression {
     Integer8(i8),
     Integer16(i16),
     Integer32(i32),

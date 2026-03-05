@@ -4,8 +4,8 @@ mod utf8;
 
 mod token;
 pub(crate) use token::*;
-mod expr;
-pub(crate) use expr::*;
+mod expression;
+pub(crate) use expression::*;
 mod operator;
 pub(crate) use operator::*;
 

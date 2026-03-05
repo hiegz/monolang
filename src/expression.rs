@@ -1,3 +1,5 @@
+use crate::UnaryExpression;
+
 pub enum Expression {
     Integer8(i8),
     Integer16(i16),
@@ -7,4 +9,6 @@ pub enum Expression {
     Unsigned16(u16),
     Unsigned32(u32),
     Unsigned64(u64),
+
+    Unary(UnaryExpression),
 }

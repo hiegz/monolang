@@ -8,6 +8,8 @@ mod expression;
 pub(crate) use expression::*;
 mod operator;
 pub(crate) use operator::*;
+mod numeric_type;
+pub(crate) use numeric_type::*;
 
 use logos::Logos;
 

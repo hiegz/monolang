@@ -10,6 +10,8 @@ mod operator;
 pub(crate) use operator::*;
 mod numeric_type;
 pub(crate) use numeric_type::*;
+mod parser;
+pub(crate) use parser::*;
 
 use logos::Logos;
 

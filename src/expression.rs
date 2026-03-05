@@ -2,10 +2,10 @@ use crate::Operator;
 
 #[derive(Debug)]
 pub enum Expression {
-    Integer8(i8),
-    Integer16(i16),
-    Integer32(i32),
-    Integer64(i64),
+    Signed8(i8),
+    Signed16(i16),
+    Signed32(i32),
+    Signed64(i64),
     Unsigned8(u8),
     Unsigned16(u16),
     Unsigned32(u32),

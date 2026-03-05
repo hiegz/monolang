@@ -10,6 +10,8 @@ pub enum Expression {
     Unsigned16(u16),
     Unsigned32(u32),
     Unsigned64(u64),
+    Floating32(f32),
+    Floating64(f64),
 
     Unary(Box<Expression>, Operator),
 }

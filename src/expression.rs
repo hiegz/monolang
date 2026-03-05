@@ -1,8 +1,8 @@
-use crate::Literal;
+use crate::Number;
 use crate::UnaryExpression;
 
 #[derive(Debug)]
 pub enum Expression {
-    Literal(Literal),
+    NumericLiteral(Number),
     Unary(UnaryExpression),
 }

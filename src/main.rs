@@ -2,6 +2,8 @@ mod char_reader;
 mod encoded;
 mod utf8;
 
+mod number;
+pub(crate) use number::*;
 mod token;
 pub(crate) use token::*;
 mod expression;
@@ -10,12 +12,6 @@ mod unary_expression;
 pub(crate) use unary_expression::*;
 mod operator;
 pub(crate) use operator::*;
-mod literal;
-pub(crate) use literal::*;
-mod numeric_literal;
-pub(crate) use numeric_literal::*;
-mod numeric_type;
-pub(crate) use numeric_type::*;
 mod parser;
 pub(crate) use parser::*;
 

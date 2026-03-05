@@ -1,4 +1,4 @@
-use crate::UnaryExpression;
+use crate::Operator;
 
 pub enum Expression {
     Integer8(i8),
@@ -10,5 +10,13 @@ pub enum Expression {
     Unsigned32(u32),
     Unsigned64(u64),
 
-    Unary(UnaryExpression),
+    Unary(Box<Expression>, Operator),
+}
+
+struct UnaryExpression;
+#[rustfmt::skip]
+impl   UnaryExpression {
+    pub fn new(operand: Expression, operator: Operator) -> Expression {
+        Expression::Unary(Box::new(operand), operator)
+    }
 }

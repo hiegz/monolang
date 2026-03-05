@@ -4,6 +4,8 @@ mod utf8;
 
 mod token;
 pub(crate) use token::*;
+mod operator;
+pub(crate) use operator::*;
 
 use logos::Logos;
 

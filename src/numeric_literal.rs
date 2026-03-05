@@ -1,0 +1,13 @@
+#[derive(Debug)]
+pub enum NumericLiteral {
+    Signed8(i8),
+    Signed16(i16),
+    Signed32(i32),
+    Signed64(i64),
+    Unsigned8(u8),
+    Unsigned16(u16),
+    Unsigned32(u32),
+    Unsigned64(u64),
+    Floating32(f32),
+    Floating64(f64),
+}

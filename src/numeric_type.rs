@@ -1,3 +1,4 @@
+#[derive(Debug, Clone)]
 pub enum NumericType {
     Signed8,
     Signed16,
